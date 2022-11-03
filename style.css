@@ -1,0 +1,41 @@
+figure {
+    display: flex;
+}
+table, th, tr, td, caption{
+    border: 1px solid #eee;
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+h1 {
+    text-align: center;
+}
+h2, h3, h4 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: underline;
+}
+body {
+    background-color: #696969;
+    color: #eee;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: larger;
+}
+a:hover, a:active{
+    color: #00ff00;
+}
+img:hover {
+    width: 800px;
+    height: 400px;
+    transition: 0.5s all;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body {
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
